@@ -1,0 +1,356 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Tue Oct 10 14:49:34 2023
+| Host         : ADUAED10599LPLX running 64-bit Ubuntu 18.04.6 LTS
+| Command      : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+| Design       : top
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 64
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay | 8          |
+| TIMING-20 | Warning  | Non-clocked latch             | 56         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on RxD relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btn[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on btn[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on led[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on led[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on led[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on led[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on led[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[200] cannot be properly analyzed as its control pin key_storage_reg_reg[200]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[201] cannot be properly analyzed as its control pin key_storage_reg_reg[201]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[202] cannot be properly analyzed as its control pin key_storage_reg_reg[202]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[203] cannot be properly analyzed as its control pin key_storage_reg_reg[203]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[204] cannot be properly analyzed as its control pin key_storage_reg_reg[204]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[205] cannot be properly analyzed as its control pin key_storage_reg_reg[205]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[206] cannot be properly analyzed as its control pin key_storage_reg_reg[206]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[207] cannot be properly analyzed as its control pin key_storage_reg_reg[207]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[208] cannot be properly analyzed as its control pin key_storage_reg_reg[208]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[209] cannot be properly analyzed as its control pin key_storage_reg_reg[209]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[210] cannot be properly analyzed as its control pin key_storage_reg_reg[210]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[211] cannot be properly analyzed as its control pin key_storage_reg_reg[211]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[212] cannot be properly analyzed as its control pin key_storage_reg_reg[212]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[213] cannot be properly analyzed as its control pin key_storage_reg_reg[213]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[214] cannot be properly analyzed as its control pin key_storage_reg_reg[214]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[215] cannot be properly analyzed as its control pin key_storage_reg_reg[215]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[216] cannot be properly analyzed as its control pin key_storage_reg_reg[216]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[217] cannot be properly analyzed as its control pin key_storage_reg_reg[217]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[218] cannot be properly analyzed as its control pin key_storage_reg_reg[218]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[219] cannot be properly analyzed as its control pin key_storage_reg_reg[219]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[220] cannot be properly analyzed as its control pin key_storage_reg_reg[220]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[221] cannot be properly analyzed as its control pin key_storage_reg_reg[221]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[222] cannot be properly analyzed as its control pin key_storage_reg_reg[222]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[223] cannot be properly analyzed as its control pin key_storage_reg_reg[223]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[24] cannot be properly analyzed as its control pin key_storage_reg_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[25] cannot be properly analyzed as its control pin key_storage_reg_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[26] cannot be properly analyzed as its control pin key_storage_reg_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[27] cannot be properly analyzed as its control pin key_storage_reg_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[28] cannot be properly analyzed as its control pin key_storage_reg_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[29] cannot be properly analyzed as its control pin key_storage_reg_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[30] cannot be properly analyzed as its control pin key_storage_reg_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[31] cannot be properly analyzed as its control pin key_storage_reg_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[32] cannot be properly analyzed as its control pin key_storage_reg_reg[32]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[33] cannot be properly analyzed as its control pin key_storage_reg_reg[33]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[34] cannot be properly analyzed as its control pin key_storage_reg_reg[34]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[35] cannot be properly analyzed as its control pin key_storage_reg_reg[35]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[36] cannot be properly analyzed as its control pin key_storage_reg_reg[36]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[37] cannot be properly analyzed as its control pin key_storage_reg_reg[37]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[38] cannot be properly analyzed as its control pin key_storage_reg_reg[38]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[39] cannot be properly analyzed as its control pin key_storage_reg_reg[39]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[40] cannot be properly analyzed as its control pin key_storage_reg_reg[40]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[41] cannot be properly analyzed as its control pin key_storage_reg_reg[41]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[42] cannot be properly analyzed as its control pin key_storage_reg_reg[42]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[43] cannot be properly analyzed as its control pin key_storage_reg_reg[43]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[44] cannot be properly analyzed as its control pin key_storage_reg_reg[44]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[45] cannot be properly analyzed as its control pin key_storage_reg_reg[45]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[46] cannot be properly analyzed as its control pin key_storage_reg_reg[46]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[47] cannot be properly analyzed as its control pin key_storage_reg_reg[47]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[48] cannot be properly analyzed as its control pin key_storage_reg_reg[48]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[49] cannot be properly analyzed as its control pin key_storage_reg_reg[49]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[50] cannot be properly analyzed as its control pin key_storage_reg_reg[50]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[51] cannot be properly analyzed as its control pin key_storage_reg_reg[51]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[52] cannot be properly analyzed as its control pin key_storage_reg_reg[52]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[53] cannot be properly analyzed as its control pin key_storage_reg_reg[53]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[54] cannot be properly analyzed as its control pin key_storage_reg_reg[54]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch key_storage_reg_reg[55] cannot be properly analyzed as its control pin key_storage_reg_reg[55]/G is not reached by a timing clock
+Related violations: <none>
+
+

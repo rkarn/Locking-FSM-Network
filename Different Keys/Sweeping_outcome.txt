@@ -1,0 +1,125 @@
+key_storage_reg [ks, kf, kt] 
+
+Full Steganography (8):
+key_size = 448
+Ks <= key_storage_reg[351:328]; //[..,..,..,..,Ks,..,..,..] 
+Kf <= key_storage_reg[231:208]; //[..,Kf,..,..,..,..,..,..]
+Kt <= key_storage_reg[15:8];    //[..,..,..,..,..,..,Kt,..]
+ks_kf_kt_valid<= 1;
+
+LUT	128	20800	0.61538464
+FF	169	41600	0.40625
+IO	9	106	8.490566
+BUFG	2	32	6.25
+WNS: 76.842 ns
+Power: 0.072W
+
+
+No steganography 
+key size = 56
+kt: key_storage_reg[7:0]
+Kf: key_storage_reg[31:8]
+Ks: key_storage_reg[55:32]
+
+LUT	103	20800	0.49519232
+FF	99	41600	0.23798077
+IO	9	106	8.490566
+BUFG	2	32	6.25
+WNS: 77.699 ns
+Power: 0.072W
+
+
+
+2 steganography 
+key size = 112
+kt: key_storage_reg[15:8]
+Kf: key_storage_reg[63:40]
+Ks: key_storage_reg[87:64]
+
+LUT	111	20800	0.53365386
+FF	166	41600	0.39903846
+IO	9	106	8.490566
+BUFG	2	32	6.25
+WNS: 78.11 ns
+Power: 0.072W
+
+
+
+3 Steganography
+key size = 168
+kt: key_storage_reg[23:16]
+Kf: key_storage_reg[63:40]
+Ks: key_storage_reg[87:64]
+
+LUT	125	20800	0.60096157
+FF	167	41600	0.40144232
+IO	9	106	8.490566
+BUFG	2	32	6.25
+WNS: 77.688 ns
+Power: 0.072W
+
+
+4 Steganography
+key_storage_reg = 224
+Ks <= key_storage_reg[223:200]; //[Ks,..,..,..] 
+Kf <= key_storage_reg[55:32]; //[..,..,..,Kf]
+Kt <= key_storage_reg[31:24];    //[Kt,..,..,..]
+
+LUT	117	20800	0.5625
+FF	167	41600	0.40144232
+IO	9	106	8.490566
+BUFG	2	32	6.25
+WNS: 77.945 ns
+Power: 0.072W
+
+
+
+5 Steganography
+key_storage_reg = 280
+Ks <= key_storage_reg[279:256]; //[Ks,..,..,..,..] 
+Kf <= key_storage_reg[63:40]; //[..,..,..,..,Kf]
+Kt <= key_storage_reg[39:32];    //[Kt,..,..,..,..]
+
+LUT	119	20800	0.57211536
+FF	168	41600	0.40384614
+IO	9	106	8.490566
+BUFG	2	32	6.25
+WNS: 78.065 ns
+Power: 0.072W
+
+
+6 Steganography
+key_storage_reg = 336
+Ks <= key_storage_reg[335:312]; //[Ks,..,..,..,..,..] 
+Kf <= key_storage_reg[71:48]; //[..,..,..,..,..,Kf]
+Kt <= key_storage_reg[47:40];    //[Kt,..,..,..,..,..]
+
+LUT	119	20800	0.57211536
+FF	168	41600	0.40384614
+IO	9	106	8.490566
+BUFG	2	32	6.25
+WNS: 77.795 ns
+Power: 0.072W
+
+
+7 Steganography
+key_storage_reg = 392
+Ks <= key_storage_reg[391:368]; //[Ks,..,..,..,..,..,..] 
+Kf <= key_storage_reg[79:56]; //[..,..,..,..,..,..,Kf]
+Kt <= key_storage_reg[55:48];    //[Kt,..,..,..,..,..]
+
+LUT	123	20800	0.59134614
+FF	168	41600	0.40384614
+IO	9	106	8.490566
+BUFG	2	32	6.25
+WNS: 77.727 ns
+Power: 0.072W
+
+
+Unlocked
+LUT	43	20800	0.20673077
+FF	50	41600	0.12019231
+IO	9	106	8.490566
+BUFG	1	32	3.125
+WNS: 78.488 ns
+Power: 0.072W
