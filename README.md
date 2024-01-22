@@ -2,7 +2,7 @@
 
 This repository contains the source code to reproduce the results of our paper: 
 
-`Karn, Rupesh Raj, Johann Knechtel, and Ozgur Sinanoglu "Obfuscation of FSMs for Secure Outsourcing of Neural Network Inference onto FPGAs."  (Under Review)`
+`Karn, Rupesh Raj, Johann Knechtel, and Ozgur Sinanoglu "Obfuscation of FSMs for Secure Outsourcing of Neural Network Inference onto FPGAs." `
 
 Unzip the files. 
 
